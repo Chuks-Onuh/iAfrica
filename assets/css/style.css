@@ -474,16 +474,16 @@ header {
   .about-us .natur-row {
     margin-top: 20px; }
   .about-us .text-part h2 {
-    font-weight: 650;
+    font-weight: 600;
     font-size: 2.0rem;
     margin-bottom: 20px;
-  color: rgb(255, 102, 0); }
+    text-align: center;
+  color: rgb(9, 121, 235); }
   .about-us .text-part p {
-    text-indent: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     line-height: 27px;
     font-weight: 500;
-    text-align: justify;
+    text-align: center;
     font-size: 1.2rem; }
   .about-us .image-part .about-quick-box .about-qcard {
     padding: 50px 30px;
@@ -553,14 +553,15 @@ header {
   .mission-vision .mv-det {
     margin: auto;}
   .mission .text-part p {
-      text-indent: 20px;
-      margin-bottom: 15px;
-      line-height: 27px;
-      font-weight: 500;
-      text-align: justify;
-      font-size: 1.15rem; }
+    margin-bottom: 15px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2rem;
+  }
   .mission .text-part h2{
     color: rgb(255, 102, 0);
+    text-align: center;
   }
 
 /* ===================================== Charity Number CSS ================================== */
@@ -816,5 +817,134 @@ header {
 .footer{
   background-color: rgb(255, 102, 0);
   font-size: 1.2rem;
+}
+
+/* ===================================== Important facts Style  ================================== */
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Our Team css */
+.user-pic {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 20px auto 20px;
+  border-left: 3px solid #ddd;
+  border-right: 3px solid #ddd;
+  border-top: 3px solid #007bff;
+  border-bottom: 3px solid #007bff;
+  transform: rotate(-30deg);
+  transition: 0.5s;
+}
+.card-box:hover .user-pic {
+  transform: rotate(0deg);
+  transform: scale(1.1);
+}
+.card-box {
+  padding: 15px;
+  background-color: #fdfdfd;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 8px 0px #d4d4d4;
+  transition: 0.5s;
+}
+.card-box:hover {
+border: 1px solid #007bff;
+}
+.card-box p {
+  color: #808080;
+}
+
+/* Read more */
+#content1 {
+  display: none;
+}
+#content {
+  display: none;
+}
+#content2 {
+  display: none;
+}
+#content3 {
+  display: none;
+}
+#content4 {
+  display: none;
+}
+#content5 {
+  display: none;
+}
+#content6 {
+  display: none;
+}
+#content7 {
+  display: none;
+}
+#content8 {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
